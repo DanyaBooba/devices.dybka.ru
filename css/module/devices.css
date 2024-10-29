@@ -1,0 +1,26 @@
+main {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#devices-list .device {
+    width: 100%;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+#devices-list .device .device__left {
+    flex: 1;
+}
+
+#devices-list .device .device__left span {
+    font-family: var(--bs-font-monospace) !important;
+    color: #00000055;
+}
+
+#devices-list .device img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
