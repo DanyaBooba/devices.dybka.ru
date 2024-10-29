@@ -8,13 +8,14 @@ main {
     width: 100%;
     display: flex;
     margin-bottom: 2rem;
+    gap: 5rem;
 }
 
 #devices-list .device .device__left {
     flex: 1;
 }
 
-#devices-list .device .device__left span {
+#devices-list .device .device__left h2 span {
     font-family: var(--bs-font-monospace) !important;
     color: #00000055;
 }
