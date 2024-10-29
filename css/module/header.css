@@ -1,0 +1,25 @@
+.header {
+    background-color: #ffffffaa;
+    position: fixed;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border-end-start-radius: 12px;
+    border-end-end-radius: 12px;
+}
+
+.header .header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header__container h1 {
+    margin: 0;
+}
+
+.header .header__container span svg {
+    width: 20px;
+    height: 20px;
+}
