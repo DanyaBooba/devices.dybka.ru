@@ -1,0 +1,23 @@
+body {
+    background-image: url('/img/body.png');
+}
+
+body.body-1 {
+    background-color: var(--body-1);
+}
+
+body.body-2 {
+    background-color: var(--body-2);
+}
+
+body.body-3 {
+    background-color: var(--body-3);
+}
+
+body.body-4 {
+    background-color: var(--body-4);
+}
+
+body.body-5 {
+    background-color: var(--body-5);
+}

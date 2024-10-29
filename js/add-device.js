@@ -1,3 +1,6 @@
 function addDevice() {
-    console.debug('123')
+    const root = document.getElementById('devices-list')
+    if (!root) return
+
+    
 }
