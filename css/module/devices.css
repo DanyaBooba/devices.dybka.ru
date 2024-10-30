@@ -7,17 +7,14 @@ main {
 #devices-list .device {
     width: 100%;
     display: flex;
-    margin-bottom: 2rem;
-    gap: 5rem;
-}
-
-#devices-list .device .device__left {
-    flex: 1;
+    flex-direction: column-reverse;
+    margin-bottom: 3rem;
+    gap: 1rem;
 }
 
 #devices-list .device .device__left h2 span {
-    font-family: var(--bs-font-monospace) !important;
-    color: #00000055;
+    margin-right: .5rem;
+    color: #00000099;
 }
 
 #devices-list .device img {
@@ -25,3 +22,7 @@ main {
     height: auto;
     border-radius: 8px;
 }
+
+/* @media(max-width: ) {
+
+} */

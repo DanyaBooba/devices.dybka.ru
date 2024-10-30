@@ -14,7 +14,7 @@ function addDevice() {
     if (!root) return
 
     for (let i = 0; i < listDevice.length; i++) {
-        root.insertAdjacentHTML('beforeend', HTML(...listDevice))
+        root.insertAdjacentHTML('beforeend', HTML(listDevice[i]))
     }
 }
 
